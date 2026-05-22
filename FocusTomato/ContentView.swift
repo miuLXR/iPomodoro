@@ -42,7 +42,7 @@ struct ContentView: View {
                         .animation(.linear(duration: 1), value: timerManager.progress)
                     
                     Text(timerManager.formattedTime)
-                        .font(.system(size: 64, weight: .bold, design: .monospacedDigit))
+                        .font(.caption)
                 }
                 
                 HStack(spacing: 20) {

@@ -18,7 +18,7 @@ final class TomatoRecord {
     }
 }
 
-struct UserSettings: Codable {
+struct UserSettings: Codable, Equatable {
     var focusDuration: Int = 25
     var shortBreakDuration: Int = 5
     var longBreakDuration: Int = 15
